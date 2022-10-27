@@ -531,7 +531,7 @@ class WebAuthn
     */
     private function oops($s, $c=0)
     {
-        error_log("oops: {$s} {$c}");
+        // error_log("oops: {$s} {$c}");
         throw new \Exception($s, $c);
     }
 
