@@ -34,6 +34,10 @@ use phpseclib\Math\BigInteger;
 
 class WebAuthn
 {
+    /**
+     * @var false|string
+     */
+    private $appid;
 
     const ES256 = -7;
     const RS256 = -257; // Windows Hello support
